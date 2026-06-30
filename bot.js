@@ -9,7 +9,7 @@ const client = new Client({
   ],
 });
 
-const TOKEN     = "MTUxOTc0NDI4OTY0NTUzMTE3Ng.Gi0l_4.9PK7N5VlA6bpAvoATYrRF_9Rcl_C88wBhqWh2c";
+const TOKEN = process.env.TOKEN;
 const GUILD_ID  = "1508302017980924064";
 const MAX_WARNS = 3;
 const MUTE_MS   = 5 * 60 * 1000;
